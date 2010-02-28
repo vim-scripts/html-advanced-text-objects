@@ -1,0 +1,48 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3000
+
+Repo: http://github.com/mjbrownie/html-textobjects
+Example vid (includes other plugins): http://www.youtube.com/watch?v=NbV-OrFMalU
+
+The inbuilt text object for html (cit cat) is great for the immediate tag but requires some additional movement if you have nesting. 
+This plugin gives you some more text objects to play with eg 'cahf' (cut-around-html-form) 'cihb' (cut-in-html-body) , 'viht' (visual-inner-html-table) , 'gUihd' (go UPPERCASE in html div)
+
+This is still very much a work in progress any ideas on mapping naming conventions/ bugs etc please contact me.
+
+" Dependencies:
+"
+" textobj-user by Kana Natsuno
+" http://www.vim.org/scripts/script.php?script_id=2100
+"
+"
+" Overview:
+"
+" This plugin adds some textobjects to the html filetype
+"
+" ihf/ahf - in/around a <form>
+" ihf/ahd - in/around a <div>
+" ihf/ahs - in/around a <span>
+"
+"
+" ihb <body>
+" ihp <p>
+" ihu <ul>
+" ihl <li>
+" iht <table>
+" ihr <tr>
+" ihc <td> (in-html-cell to avoid clash with <div>)
+""
+" so Use as you would other text objects in visual selection, cutting and
+" dealleting etc.
+"
+" Installation:
+"
+" Please ensure you have the above plugins installed as instructed
+" This file should be in your after/ftplugin for html
+"
+" ~/.vim/after/ftplugin/html/html_textobjects.vim
+"
+" }}
+
+Note theres a complimentary django textobject script 
+
+http://www.vim.org/scripts/script.php?script_id=2999
